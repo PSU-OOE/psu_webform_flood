@@ -1,0 +1,7 @@
+name: 'PSU Webform Flood'
+type: module
+description: 'Provides a flood control mechanism for webforms.'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+dependencies:
+  - drupal:webform

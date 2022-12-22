@@ -1,0 +1,7 @@
+{
+  "name": "psu-ooe/psu_webform_flood",
+  "description": "Provides a flood control mechanism for webforms",
+  "type": "drupal-custom-module",
+  "minimum-stability": "stable",
+  "require": {}
+}
