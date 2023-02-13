@@ -27,12 +27,12 @@ jobs:
         include:
           - php-version: '7.4'
             drupal-core: '^9.4'
-#          - php-version: '8.0'
-#            drupal-core: '^9.5'
-#          - php-version: '8.1'
-#            drupal-core: '10.0.x-dev'
-#          - php-version: '8.2'
-#            drupal-core: '10.1.x-dev'
+          - php-version: '8.0'
+            drupal-core: '^9.5'
+          - php-version: '8.1'
+            drupal-core: '10.0.x-dev'
+          - php-version: '8.2'
+            drupal-core: '10.1.x-dev'
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
