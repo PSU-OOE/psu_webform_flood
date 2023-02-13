@@ -2,10 +2,12 @@ name: Test
 on:
   push:
     branches:
-      - '*'
+      - main
   pull_request:
     branches:
-      - '*'
+      - main
+  schedule:
+    - cron: '0 0 * * 0'
 jobs:
   testing:
     name: Drupal ${{ matrix.drupal-core }} - PHP ${{ matrix.php-version }}
